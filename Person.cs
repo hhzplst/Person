@@ -13,25 +13,26 @@ namespace Person {
       ID = SetID();
     }
     public string GetFullName() {
-      return FirstName + LastName;
+      return FirstName + " " + LastName;
     }
     public override string ToString() {
       string result = "************************************************\n";
-      result += String.Format("{0, -10} {1, 0} {2, 10} {3, 30}\n", "ID", "FIRSTNAME", "LASTNAME", "FULLNAME");
+      result += String.Format("{0, -5} {1, 0} {2, 15} {3, 15}\n", "ID", "FIRSTNAME", "LASTNAME", "FULLNAME");
       result += "************************************************\n";
-      result += String.Format("{0, -10} {1, 0} {2, 10} {3, 30}\n", ID, FirstName, LastName, GetFullName());
+      result += String.Format("{0, -5} {1, 5} {2, 17} {3, 17}\n", ID, FirstName, LastName, GetFullName());
       return result;
     }
     public void PrintInfo() {
       Console.WriteLine(this.ToString());
     }
     private static int SetID() {
-      int newID = randomNumber.Next(1000);
+      int newID = randomNumber.Next(10000);
       while (newID == LastIDAssigned) {
-        newID = randomNumber.Next(1000);
+        newID = randomNumber.Next(10000);
       }
       LastIDAssigned = newID;
       return newID;
     }
   }
 }
+
