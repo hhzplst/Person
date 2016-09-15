@@ -24,20 +24,20 @@ Compilation succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time elapsed 00:00:01.4004395
+Time elapsed 00:00:01.3358670
  
 
 Creating Ivy Chang...
-************************************************
-ID    FIRSTNAME        LASTNAME        FULLNAME
-************************************************
-4648    Ivy             Chang         Ivy Chang
+**********************************************************
+ID         FIRSTNAME       LASTNAME        FULLNAME            
+**********************************************************
+1001       Ivy             Chang           Ivy Chang           
 
 Creating Elham Farhodi...
-************************************************
-ID    FIRSTNAME        LASTNAME        FULLNAME
-************************************************
-9226  Elham           Farhodi     Elham Farhodi
+**********************************************************
+ID         FIRSTNAME       LASTNAME        FULLNAME            
+**********************************************************
+1002       Elham           Farhodi         Elham Farhodi       
 
 
 ***********************************END TEST OUTPUT************************************/
